@@ -13,3 +13,8 @@ This project implements a N×N systolic array architecture for matrix multiplica
 - Matrix B is streamed column-wise from the top   
 - Each PE multiplies inputs and accumulates partial sums   
 - Final matrix C is output row-by-row after N cycles   
+
+# Test Cases:
+- Multiple test scenarios for verification   
+- Output results printed to console   
+- Easily extendable for larger matrices   
