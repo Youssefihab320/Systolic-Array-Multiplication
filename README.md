@@ -7,3 +7,9 @@ This project implements a N×N systolic array architecture for matrix multiplica
 ✅ Testbench with multiple test cases (systolic_array_tb.sv)    
 ✅ Valid control and data input/output ports    
 ✅ Matches digital hardware lab specifications    
+
+# 🚀 How It Works:
+- Matrix A is streamed row-wise from the left   
+- Matrix B is streamed column-wise from the top   
+- Each PE multiplies inputs and accumulates partial sums   
+- Final matrix C is output row-by-row after N cycles   
